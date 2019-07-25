@@ -93,8 +93,8 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/deskportfolio.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/deskportfolio.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +126,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #1D809F;
+  background: #656972;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -206,7 +206,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #656972;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -230,6 +230,170 @@ h6 {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+}
+
+.skill-set {
+  margin: 2em auto;
+}
+
+.skill-set p.lead.mb-5.skills {
+  margin: .5em auto !important;
+}
+
+.contact-info {
+  margin: 2em auto;
+}
+
+.contact-info p.lead.mb-5.cinfo {
+  margin: .5em auto !important;
+}
+
+.ga-logo-img {
+  height: 112px;
+  width: 112px;
+  margin-top: -10px;
+}
+
+.ut-logo-img {
+  height: 100px;
+  width: 100px;
+  margin-top: -12px;
+}
+
+.edu-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.li-logo-img {
+  height: 60px;
+  width: 60px;
+  margin-top: -12px;
+}
+
+.ha-logo-img {
+  height: 65px;
+  width: 70px;
+  margin-top: -12px;
+}
+
+.am-logo-img {
+  height: 30px;
+  width: 90px;
+  margin-top: -10px;
+}
+
+.sw-logo-img {
+  height: 65px;
+  width: 80px;
+  margin-top: -14px;
+}
+
+.dell-logo-img {
+  height: 80px;
+  width: 80px;
+  margin-top: -14px;
+}
+
+.work-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.work-zone {
+  margin: auto;
+}
+
+.work-zone p.lead.mb-5 {
+  margin: .5em auto !important;
+}
+
+.project-img {
+  width: 555px;
+  height: 285px;
+}
+
+.return-home {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 50px;
+  z-index: 999;
+}
+
+.return-home:focus, .return-home:hover {
+  color: #fff;
+}
+
+.return-home:hover {
+  background: #343a40;
+}
+
+.jac-masthead {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/jac-op.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/jac-op.png");
+}
+
+.paw-masthead {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/paws-op.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/paws-op.png");
+}
+
+.rtn-masthead {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/redtale-op.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/redtale-op.png");
+}
+
+.rtnapi-masthead {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/api-op.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/api-op.png");
+}
+
+.project-masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-masthead h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  border-radius: 20px;
+  border: 2px solid #656972;
+}
+
+@media (min-width: 992px) {
+  .project-masthead {
+    height: 100vh;
+  }
+  .project-masthead h1 {
+    font-size: 5.5rem;
+    background: #f8f9fa;
+  }
+}
+
+p.lead.mb-5.next-goal {
+  margin: .5em auto !important;
 }
 
 .portfolio-item {
@@ -295,7 +459,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(101, 105, 114, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -312,7 +476,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #656972;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -320,38 +484,38 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #4d5057;
   text-decoration: none;
 }
 
 a {
-  color: #1D809F;
+  color: #656972;
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: #4d5057;
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #656972 !important;
+  border-color: #656972 !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #4d5057 !important;
+  border-color: #4d5057 !important;
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
+  background-color: #c1beab !important;
+  border-color: #c1beab !important;
   color: #fff !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #aba78e !important;
+  border-color: #aba78e !important;
 }
 
 .btn-dark {
@@ -365,13 +529,13 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #656972 !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #656972 !important;
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #c1beab !important;
 }

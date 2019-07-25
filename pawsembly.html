@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Dana's Desk</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <a class="rounded return-home" href="#">
+    Return to Desk
+  </a>
+
+  <!-- Header -->
+  <header class="paw-masthead project-masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">General Pawsembly</h1>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+  <!-- Project About -->
+  <section class="content-section bg-light" id="project-about">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>What's General Pawsembly About?</h2>
+          <p></p>
+          <p class="lead mb-5">General Pawsembly is a pet and breeding simulator developed with Node and Express. A user can login with Google authentication and be allowed to create dogs and interact with the dogs they have created. The user is tasked with caring for the dogs and ideally breeding dogs together to get healthier dogs.</p>
+          <p class="lead mb-5">With General Pawsembly, you get the chance to create dogs from several different breeds. Every dog created has randomly generated stats for its brain, heart, lung, joint, and coat health. When a mixed dog is created the percentage and breeds of other dogs integrated with that pup is also randomly generated. What differentiates General Pawsembly from other pet and breeding simulators is that we allow mixed breeding. This provides a somewhat more realistic aspect as dogs are sometimes outcrossed to improve health statistics. </p>
+          <p class="lead mb-5">Random creation is not the only way to get a new dog. If you own a male and female dog, you can breed the two together to get a litter of puppies. The puppies breed mix will be dependent on that of the parents, and their health stats are based on Punnett squares of the parent's genetics. There is a lot to explore with this game, even in it's unfinished state.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Why -->
+  <section class="content-section bg-primary text-white text-center" id="project-why">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>Why make a game like this?</h2>
+          <p></p>
+          <p class="lead mb-5">I love dogs and genetics. Since I was a child I have been obsessed with learning about different dog breeds. The first time Punnett squares were taught in my science class, I could not stop thinking about how it applied to dogs. In that regard, this is a passion project of mine.</p>
+          <p class="lead mb-5">It is great practice with APIs. I used two APIs in this project to collect the random dog images based on breed and dog breed information. However the APIs reference the dog breeds differently which provided a unique challenge to cross reference the APIs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Challenges -->
+  <section class="content-section bg-light" id="project-challenges">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>Biggest Challenges?</h2>
+          <p></p>
+          <p class="lead mb-5">Cross referrencing dog breeds between the two APIs. Because the APIs referenced the dogs differently, it was challenging to map the two together. I managed to map it well enough to get a few breeds together to demonstrate the functionality of the app, but ideally I plan on going back to figure out a better mapping system. </p>
+          <p class="lead mb-5">Figuring out the best way to implement genetic health in the dogs. Behind the scenes this is actually being determined by a series of capital and lower case letters. It includes five sets of two letters. The health for that category is determined by the number of lower case letters present. Eventually I may allow players to have their dogs genetically mapped to expose this data, but for now players can only see the health of a category by general descriptors such as "Poor" or "Good".</p>
+          <p class="lead mb-5">Determining how to make health matter. This is a challenge I am still working on. I have considered various avenues as to how to handle it, but I did not have time to implement anything relating to this in the time frame I developed this project in.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Goals -->
+  <section class="content-section bg-primary text-white text-center" id="project-goals">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>What's Next?</h2>
+          <p></p>
+          <p class="lead mb-5 next-goal">Improved Styling | User Interaction with Other Users | Monetary System | Studding Out Males</p>
+          <p class="lead mb-5 next-goal">More Appropriate Stat Decrementation | API Calls Through Fetch | Logged In Activity | Edit Dog Names</p>
+          <p class="lead mb-5 next-goal">Change Display Names for Users | Death of Neglected Dogs | Make Genetic Health Matter More | Aging</p>
+          <p class="lead mb-5 next-goal">Improved API Integration | Ability to Search/Filter/Sort Dogs | Ability to Search/Filter/Sort Users</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project General Info -->
+  <section class="content-section bg-light" id="project-gen">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>General Information</h2>
+          <p></p>
+          <h3>Tech Stack</h3>
+          <p class="lead mb-5">Node JS | Express | MongoDB | Google OAuth</p>
+          <h3>Status</h3>
+          <p class="lead mb-5">V1 Published</p>
+          <h3>Time Devoted</h3>
+          <p class="lead mb-5">1 Week</p>
+          <h3>Links</h3>
+          <p class="lead mb-5"> <a href="https://pawsembly.herokuapp.com/home">the project</a> | <a href="https://github.com/dhagandev/Unit2BrowserGame">the code</a> </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
+</html>

@@ -34,6 +34,11 @@
     window.location.replace('redtaleapi.html');
   })
 
+  $(".bubiko-portfolio-item").click(function(e) {
+    e.preventDefault();
+    window.location.replace('bubiko.html');
+  })
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
